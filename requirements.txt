@@ -1,0 +1,34 @@
+# Image Duplicate Finder - Dipendenze
+# Versione: 2.3
+# Python: 3.7+
+
+# === CORE DEPENDENCIES ===
+# Elaborazione immagini
+Pillow>=10.0.0
+
+# Supporto formati moderni (HEIC, HEIF)
+pillow-heif>=0.10.0
+
+# === WEB INTERFACE ===
+# Framework web per interfaccia browser
+Flask>=2.3.0
+
+# === STANDARD LIBRARY ===
+# I seguenti moduli sono inclusi in Python standard:
+# - tkinter (GUI desktop)
+# - threading (multithreading)
+# - queue (comunicazione thread)
+# - pathlib (gestione percorsi)
+# - hashlib (algoritmi hash)
+# - datetime (timestamp)
+# - argparse (parsing argomenti CLI)
+# - json (serializzazione dati)
+# - os, sys (sistema operativo)
+
+# === INSTALLAZIONE ===
+# Esegui: pip install -r requirements.txt
+# 
+# Per sviluppo aggiungi:
+# - pytest>=7.0.0 (testing)
+# - black>=23.0.0 (code formatting)
+# - flake8>=6.0.0 (linting)
