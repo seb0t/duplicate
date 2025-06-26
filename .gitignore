@@ -54,6 +54,7 @@ desktop.ini
 # === PROJECT SPECIFIC ===
 # File temporanei generati dal programma
 garbage_duplicates/
+web_garbage_duplicates/
 web_results/
 *.log
 
@@ -75,12 +76,20 @@ temp_images/
 test_*.py
 demo_*.py
 debug_*.py
+create_test_images.py
 
 # Documentazione temporanea
 BUGFIX_*.md
 CHANGELOG_*.md
 REPORT_*.md
+NUOVE_FUNZIONALITA_*.md
+GUIDA_*.md
+PROGETTO_*.md
+PULIZIA_*.md
 VERIFICA_*.py
+
+# File batch di test
+run_gui_themes.bat
 
 # === DEPLOYMENT ===
 .env.local
